@@ -11,7 +11,7 @@ import os
 os.getcwd()
 
 #%%
-avocados = pd.read_csv("data/avocado.csv")
+avocados = pd.read_csv("force_tech/data/avocado.csv")
 avocados.drop("X1",axis=1).head()
 
 #%%
